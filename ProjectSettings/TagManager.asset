@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - WaterSystem_Reflections
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: SkyBox
+    uniqueID: 1309675219
+    locked: 0
+  - name: Background_3
+    uniqueID: 3213278933
+    locked: 0
+  - name: Background_3_Fog
+    uniqueID: 3148565971
+    locked: 0
+  - name: Background_2
+    uniqueID: 3203204525
+    locked: 0
+  - name: Background_2_Fog
+    uniqueID: 3775030095
+    locked: 0
+  - name: Background_1
+    uniqueID: 2549957
+    locked: 0
+  - name: Background_1_Fog
+    uniqueID: 4119596901
+    locked: 0
+  - name: MidGround
+    uniqueID: 954884973
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2819560227
+    locked: 0
+  - name: WaterTopMesh
+    uniqueID: 3377283035
+    locked: 0
+  - name: WaterFrontMesh
+    uniqueID: 261461823
+    locked: 0
+  - name: WorldSpaceUI
+    uniqueID: 966756635
+    locked: 0
+  - name: Foreground
+    uniqueID: 32768599
+    locked: 0
+  - name: Foreground_Fog
+    uniqueID: 76042955
+    locked: 0
+  m_RenderingLayers:
+  - Default
