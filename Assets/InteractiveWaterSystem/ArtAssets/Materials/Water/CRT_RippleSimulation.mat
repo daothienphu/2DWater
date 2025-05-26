@@ -27,7 +27,7 @@ Material:
     m_Floats:
     - _Damping: 0.999
     - _DeltaUV: 1
-    - _ImpactHeight: 0.11518334
+    - _ImpactHeight: 0.09182778
     - _Spread: 0.2
     m_Colors: []
   m_BuildTextureStacks: []

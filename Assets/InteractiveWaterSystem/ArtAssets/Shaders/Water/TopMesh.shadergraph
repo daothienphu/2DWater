@@ -1077,8 +1077,8 @@
     "m_ObjectId": "04b9f8d7f80a4a98b73dfed52b4a5b8f",
     "m_Title": "Ripple Simulation Height",
     "m_Position": {
-        "x": -1283.0001220703125,
-        "y": 204.00009155273438
+        "x": -1283.0,
+        "y": 204.0
     }
 }
 
@@ -1427,8 +1427,8 @@
     "m_ObjectId": "137aca0100a1489ab056b82a0f632419",
     "m_Title": "Distance Based Height Reduction",
     "m_Position": {
-        "x": -536.0001220703125,
-        "y": -464.9999084472656
+        "x": -536.0,
+        "y": -465.0
     }
 }
 
@@ -3074,8 +3074,8 @@
     "m_ObjectId": "55ecc459ef6b4b99aed74abefa6760f4",
     "m_Title": "Main",
     "m_Position": {
-        "x": -197.00015258789063,
-        "y": 517.0001220703125
+        "x": -197.0,
+        "y": 517.0
     }
 }
 
@@ -4495,8 +4495,8 @@
     "m_ObjectId": "a208672fd1774f3da0dc076eba1c176d",
     "m_Title": "Ambient Wave Height",
     "m_Position": {
-        "x": -1515.000244140625,
-        "y": -250.99990844726563
+        "x": -1515.0,
+        "y": -251.0
     }
 }
 
@@ -6348,8 +6348,8 @@
     "m_ObjectId": "f8479d61421344a38d072303247d730a",
     "m_Title": "Reflection",
     "m_Position": {
-        "x": -769.0000610351563,
-        "y": 916.0000610351563
+        "x": -769.0,
+        "y": 916.0
     }
 }
 

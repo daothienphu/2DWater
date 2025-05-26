@@ -56,7 +56,7 @@ Material:
     - _RippleHeightOffset: 0
     - _RippleScale: 1
     - _WaveHeightOffset: 0
-    - _WaveScale: 0.3
+    - _WaveScale: 1
     m_Colors:
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionOffset: {r: 0, g: -0.0005, b: 0, a: 0}

@@ -52,7 +52,7 @@ Material:
     - _CausticOffsetSpeed: 0.6
     - _CausticPower: 4.6
     - _CausticScale: 10
-    - _CausticStrength: 0.4
+    - _CausticStrength: 1.55
     - _DistortionOffsetSpeed: 1
     - _DistortionScale: 9
     - _DistortionStrength: 0.0025
@@ -60,11 +60,11 @@ Material:
     - _RippleScale: 1
     - _SurfaceDepth: 0.997
     - _WaveHeightOffset: 0
-    - _WaveScale: 0.3
+    - _WaveScale: 1
     m_Colors:
     - _CausticColor: {r: 0, g: 0.050980393, b: 0.05490196, a: 1}
     - _CausticScrollDir: {r: 0, g: 0, b: 0, a: 0}
-    - _CausticTiling: {r: 4, g: 4.8, b: 0, a: 0}
+    - _CausticTiling: {r: 4.4, g: 2.6, b: 0, a: 0}
     - _DistortionDir: {r: 0.05, g: 0.025, b: 0, a: 0}
     - _MainColor: {r: 0.15294114, g: 0.16862741, b: 0.19999996, a: 1}
     - _SurfaceColor: {r: 0.0470588, g: 0.55294114, b: 0.6901961, a: 1}
