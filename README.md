@@ -36,6 +36,7 @@ The system needs the following configuration requirements that are not visible w
 - Contains 3 layers of sinusoidal waves, with multiple configuration parameters.
 ![Unity_wD8PDAoi3s](https://github.com/user-attachments/assets/c10eb81c-4c3c-4f5c-a34a-5a902e6926ed)
 - "That's a blatant lie! I saw 3 CustomFunction nodes!", I only use it to shorten this whole thing:
+![Unity_vQfqjSVC25](https://github.com/user-attachments/assets/4c06dd60-7d48-4dc8-b13b-45e384853acd)
 
 ## Contact Ripples
 - Made with a shader, the ripples need to differentiate between when a contact happens and normal simulation, which can be interpreted as different shader passes, which Shader Graph doesn't support, hence the use of a good ol' shader. I'm planning on converting it to Shader Graph somehow, so for the visual learners out there, come back in a few months, or years...
