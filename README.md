@@ -11,7 +11,7 @@ A fully interactive water system designed for 2D and 2.5D games (works for 3D to
 - Accurate depth clipping with both sprites and meshes.  
 
 ## Demo
-There are 2 demo scenes included in the project, Demo_WaterOnly and Demo_WithLighting. This [video](https://youtu.be/nht-2tldh_Q) is from Demo_WithLighting.
+There are 2 demo scenes included in the project, Demo_WaterOnly and Demo_WithLighting. This [video](https://youtu.be/nht-2tldh_Q) and this [live demo](https://spookyfish.itch.io/interactive-water-system) are from Demo_WithLighting.
 
 ## How it works
 The water system creates 2 meshes: 
