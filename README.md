@@ -3,12 +3,12 @@
 A fully interactive water system designed for 2D and 2.5D games (works for 3D too, but some features are quite redundant).
 
 ## Features
-- GPU-driven ambient surface waves using Unity Shader Graph.  
-- GPU-driven and real-time contact ripples using Unity Shader.  
-- Fully configurable caustics and distortion using Unity Shader Graph.  
-- Real-time planar reflections.  
-- Fully compatible with the Unity 2D Light System.  
-- Accurate depth clipping with both sprites and meshes.  
+- [GPU-driven ambient surface waves using Unity Shader Graph.](##-ambient-surface-waves)  
+- [GPU-driven and real-time contact ripples using Unity Shader.](##-contact-ripples)  
+- [Fully configurable caustics and distortion using Unity Shader Graph.](##-caustics-and-distortions)  
+- [Real-time planar reflections.](##-planar-reflection)  
+- [Fully compatible with the Unity 2D Light System.](##-compatible-with-2d-light-system)  
+- [Accurate depth clipping with both sprites and meshes.](##-accurate-depth-clipping)  
 
 ## Demo
 There are 2 demo scenes included in the project, Demo_WaterOnly and Demo_WithLighting. This [video](https://youtu.be/nht-2tldh_Q) and this [live demo](https://spookyfish.itch.io/interactive-water-system) are from Demo_WithLighting.
