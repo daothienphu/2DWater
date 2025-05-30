@@ -16,7 +16,14 @@ There are 2 demo scenes included in the project, Demo_WaterOnly and Demo_WithLig
 ## How it works
 The water system creates 2 meshes: 
 - A "Front mesh" on the XY plane that is meant to be interpreted as the cross-section of a water body. The front mesh applies caustics and distortions to sprites behind it.
-- A "Top mesh" on the XZ plane that is meant to be interpreted as the water surface. The top mesh has waves, ripples, and reflections.
+- A "Top mesh" on the XZ plane that is meant to be interpreted as the water surface. The top mesh has waves, ripples, and reflections.  
+
+In the project files, you can find:
+- The `CRT_AmbientWave` shader graph that renders ambient waves to the `AmbientWave` render texture.
+- The `CRT_RippleSimulation` shader that renders all ripple interactions to the `RippleSimulation` render texture. This texture is run on demand in the `FixedUpdate` loop of the [InteractiveWater](https://github.com/daothienphu/InteractiveWaterSystem/blob/main/Assets/InteractiveWaterSystem/Scripts/InteractiveWater.cs) script.
+- The [SimplePlanarReflection.cs](https://github.com/daothienphu/InteractiveWaterSystem/blob/main/Assets/InteractiveWaterSystem/Scripts/SimplePlanarReflection.cs) script that renders the reflections of reflectable sprites to the `PlanarReflection` render texture.
+- The `FrontMesh` shader graph that uses the `AmbientWave` and `RippleSimulation` textures for vertex displacement, and applies caustics and distortions to sprites behind it based on sorting layer order.
+- The `TopMesh` shader graph that uses the `AmbientWave` and `RippleSimulation` textures for vertex displacement, and the `PlanarReflection` texture for reflections.
 
 ## Configuration Requirements
 The system needs the following configuration requirements that are not visible within the WaterSystem folder but still exist somewhere in the project:
